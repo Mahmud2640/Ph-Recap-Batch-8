@@ -4,6 +4,9 @@
 /* Common Css */
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .text-primary {
   color: #fd6e0a;
@@ -23,6 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 150px;
 }
 nav > ul {
   display: flex;
@@ -40,4 +44,49 @@ nav a {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+}
+
+/* Header */
+header {
+  background-color: #fff8f3;
+  background-image: url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-images {
+  width: 450px;
+  height: 510px;
+}
+.greeting {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.title {
+  color: #181818;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-content p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0;
+}
+.overlay {
+  position: absolute;
+  padding: 38px 23px;
+  width: 85px;
 }
