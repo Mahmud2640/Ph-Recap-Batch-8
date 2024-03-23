@@ -90,3 +90,10 @@ header {
   padding: 38px 23px;
   width: 85px;
 }
+
+/* about section */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+}
